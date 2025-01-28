@@ -55,6 +55,35 @@ let subject=["html","css","js","java"]
 
 console.log(subject.indexOf("js"));
 
-//! 
+//!  6. includes()
+
+// it is used to check whether the given element is present or not in the array
+
+console.log(subject.includes('html'));
+
+
+//! 7. concat()
+
+// it is used to combine two or more than two arrays
+
+
+let arr1 = [10,20]
+let arr2 = [90,80]
+
+
+let combinedArr = arr1.concat(arr2)
+console.log(combinedArr);
+
+
+//! 9. join()
+
+// it is used to convert array to string
+
+let characters = ['h','e','l','l','o']
+
+console.log(characters.join(""));
+console.log(characters.join("#"));
+
+
 
 
