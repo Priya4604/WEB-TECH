@@ -86,4 +86,11 @@ console.log(characters.join("#"));
 
 
 
+//! 9. reverse()
+
+// it is used to reverse the array
+
+console.log(characters.reverse());
+
+
 
