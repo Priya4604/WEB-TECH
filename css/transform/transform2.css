@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.outer
+{  background: linear-gradient( to right,violet,pink,gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.outer > .c1 ,.c2,.c3,.c4{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: rgb(202, 246, 248);
+    transition: all 2s ease-in;
+}
+.c1:hover{
+    transform: translateX(90vw) scale(2);
+    background-color: rgb(252, 174, 231);
+}
+.c2:hover{
+    transform: translateX(90vw) skew(90deg);
+    background-color: rgb(252, 174, 231);
+}
+.c3:hover{
+    transform: translateX(90vw) rotate(360deg) ;
+    border-radius: 0;
+}
+.c4:hover{
+    transform: translate(65vh,-65vh);
+    border-radius: 0;
+}

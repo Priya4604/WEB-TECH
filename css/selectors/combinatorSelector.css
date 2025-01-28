@@ -1,0 +1,19 @@
+#container1{
+    height: 200px;
+    width: 400px;
+    border: 3px solid green;
+  }
+
+  #container2{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+  }
+/*discendent selector */
+  #container1 p{
+     color: rgb(179, 145, 210);
+  }
+/* direct  child selector */
+  #container2 > p {
+    color:  red;
+  }

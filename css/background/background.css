@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    height: 100vh;
+
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner
+{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    background-image: url("https://th.bing.com/th/id/OIP.Q1xjNu2aiblEeOSQ20HuQgHaEy?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .inner >h1{
+    text-shadow: 2px 2px rgb(226, 226, 157);
+ }

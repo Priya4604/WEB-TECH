@@ -1,0 +1,20 @@
+.con1 > p{
+    font-size: 20px;
+
+}
+
+.con1 > h1{
+    font-style: italic;
+}
+
+.con1 > ol > li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.con1 > p {
+    font-family: "Playwrite ES Deco Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

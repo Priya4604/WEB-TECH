@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.inner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#d1{
+    background-image: url("https://th.bing.com/th/id/R.2436bfd57f8da9d3352be6d9c69f7d0d?rik=9ZCsDkOmNhWhyQ&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f04%2fbest-scenery-wallpaper-scenery-images.jpg&ehk=QhEgBXlBIdu4NBBKeTvxOQncAMHrLokkC8ustgaeB9c%3d&risl=&pid=ImgRaw&r=0") ;
+    background-size: cover;
+    
+}
+#d2{
+    background-image: url("https://cdn.photographylife.com/wp-content/uploads/2014/06/Nikon-D810-Image-Sample-6.jpg") ;
+    background-size: cover;
+    
+}
+#d3{
+    background-image: url("https://cdn.photographylife.com/wp-content/uploads/2014/09/Nikon-D750-Image-Samples-2.jpg") ;
+    background-size: cover;
+    
+}
+
+#d4{
+    background-image: url("https://th.bing.com/th/id/OIP.4XB8NF1awQyApnQDDmBmQwHaEo?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+    
+}
+
+.inner> h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: rgb(255, 252, 252);
+    text-shadow: 2px 2px rgb(239, 49, 49);
+}
+
+.inner> p{
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: rgb(255, 252, 252);
+    text-shadow: 2px 2px rgb(239, 49, 49);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
