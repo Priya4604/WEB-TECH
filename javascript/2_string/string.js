@@ -29,7 +29,7 @@ console.log(lower)
 console.log(str2)
 
 
-//! 3. indesOf()
+//! 3. indexOf()
 
 // it is used to return the index of the specific character.
 // it will take the first occurence of the character.
@@ -61,7 +61,7 @@ console.log(str4.includes("how "));//true
 
 //! 6. trim()
 
-// it is used to remove the white-spaces sides of the string
+// it is used to remove the white-spaces of the string
 
 let str5 = "  hi   "
 
