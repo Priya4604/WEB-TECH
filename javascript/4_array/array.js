@@ -13,6 +13,7 @@ console.log(arr.length);
 //! 1. push()
 
 // it is used to add element at the end of the array
+// it will return the modified length
 
 arr.push("bye")
 console.log(arr);
@@ -21,6 +22,7 @@ console.log(arr);
 //! 2. pop()
 
 // it is used to remove element from the end.
+// it will return poped element
 
 let names = ["deva","ruby","sandeep","rohit"]
 
@@ -31,6 +33,7 @@ console.log(names);
 //! 3. unshift()
 
 // it is used to add element at the starting of the array.
+// it will return the modified length
 
 
 names.unshift("jeeva")
@@ -41,6 +44,7 @@ console.log(names);
 //! 4. shift()
 
 // it is used to remove an element from the starting of the array.
+// it will return  shift element
 
 let fruits = ["appe","mango","guva"]
 
@@ -91,6 +95,163 @@ console.log(characters.join("#"));
 // it is used to reverse the array
 
 console.log(characters.reverse());
+
+
+//! splice()
+
+// it will modify the original string.
+// it will take 3 parameters (startIndex,count, replacementValue)
+
+
+//             0  1  2  3  4  5
+
+let number = [10,20,30,40,50,60]
+
+number.splice(2,2,"how")
+console.log(number);
+
+arr.splice(2,0,"hii")
+console.log(arr);
+
+number.splice(2,2)
+console.log(number);
+
+
+//! higherOrder array method
+
+//! foreach()
+
+// it is higherOrder array method and it is used to traverse the array.
+// it has three parameter(element,index,array).
+// it can not return anything.
+// it is the only method return nothing (undefined)
+
+
+let array1 = [10,20,30,40,50,60]
+
+
+array1.forEach((ele,index,array)=>{
+    console.log(index,ele,array);
+    
+})
+
+ let element =array1.forEach((ele)=>{
+    return ele;
+    
+})
+
+console.log(element);//undefined
+
+//! print element grater than 30 in array
+
+let output =[]
+array1.forEach((ele)=>{
+    if(ele>30)
+    {
+        output.push(ele) 
+    }    
+})
+
+console.log(output);
+
+//! filter()
+
+// it is higherOrder array method.
+// it can take 3 parameters.
+// it will check the condition and it will return the element
+
+
+let greater = array1.filter((ele)=>
+{
+    return ele>30
+})
+
+console.log(greater);
+
+
+// input:[10,20,30,40,50]
+//output[110,120,130,140,150]
+
+let output1 =[]
+array1.forEach((ele)=>{
+     output1.push(ele+100)
+})
+console.log(output1);
+
+//! map()
+// it is higherOrder array method and it is used to traverse the array.
+// it can take 3 parameters.
+// it will return the element
+
+let output2 =array1.map((ele)=>{
+    return ele+100
+})
+
+console.log(output2);
+
+
+//! add all the element of the array
+
+
+let sum = 0
+
+let output3 = array1.map((ele)=>
+{
+    return sum + ele
+})
+
+console.log(output3);
+
+//! reduce()
+
+
+
+let add = array1.reduce((acc,ele)=>
+{
+    return acc + ele;
+})
+/* 
+let add = array1.reduce((acc,ele)=>
+{
+    return acc + ele;
+},0)*/
+console.log(add);
+
+let prd = array1.reduce((acc,ele)=>
+    {   
+        console.log(acc);
+        return acc * ele;
+    })
+console.log(prd);
+/* 
+let prd = array1.reduce((acc,ele)=>
+    {   
+        console.log(acc);
+        return acc * ele;
+    },1)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
