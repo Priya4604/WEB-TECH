@@ -231,6 +231,24 @@ let prd = array1.reduce((acc,ele)=>
     },1)
 */
 
+//! sort()
+
+let unsortedarr = [50,10,40,30,60]
+
+let asc = unsortedarr.sort((a,b)=>
+{
+    return a - b 
+})
+console.log(asc);
+
+let desc =  unsortedarr.sort((a,b)=>
+{
+    return b - a
+})
+console.log(desc);
+
+
+
 
 
 
